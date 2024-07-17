@@ -1,0 +1,1370 @@
+/*////////////////////////////////////////////////////////////Início da página/////////////////////////////////////////////////////////////////////*/
+.header {
+    position: fixed;
+}
+
+.navbar-collapse {
+    align-items: center;
+    color: whitesmoke;
+
+}
+
+/*logo*/
+
+.logo-img {
+    float: left;
+}
+
+.social-media {
+    margin-left: auto;
+    /* Ensures the social media icons are on the right side */
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    padding-left: 0;
+
+}
+
+
+/*fim-logo*/
+
+.body {
+    font-size: 1rem;
+    font-family: sans-serif
+}
+
+.bar-color {
+    background-color: #1190cb;
+}
+
+.navbar-custom {
+    background-color: #1190cb !important;
+}
+
+/*planos oferecidos no nav-bar*/
+.planos {
+    align-items: end;
+}
+
+
+.navbar-custom a {
+    color: whitesmoke;
+}
+
+.button-bar {
+    background-color: #1190cb;
+}
+
+.styleIcon {
+    font-size: 40px;
+}
+
+
+/*redes sociais*/
+.social-media {
+    height: 40px;
+    color: whitesmoke;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .social-media {
+        display: none;
+    }
+}
+
+
+/*Fim rede social*/
+
+
+/* Alinha o botão toggler à esquerda */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: end;
+    margin-right: 4px;
+}
+
+/*BANNER*/
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 0rem;
+    /*Para a imagem do banner não ser cortada*/
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.carousel-caption {
+    top: 17%;
+    padding-bottom: 1.25rem;
+
+}
+
+.styleTituloBanner {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 0;
+
+}
+
+.stylePBanner {
+    color: #fff;
+    font-size: 0.5rem;
+    line-height: 10px;
+}
+
+
+
+
+@media(min-width:768px) {
+    .styleTituloBanner {
+        font-size: 2rem;
+        line-height: 25px;
+    }
+
+    .stylePBanner {
+        font-size: 1.0rem;
+        line-height: 16px;
+    }
+
+    .carousel-caption {
+        top: 30%;
+        padding-bottom: 1.25rem;
+
+    }
+
+
+    .textos {
+        margin-bottom: -40px;
+    }
+
+    .sobre-nos {
+        margin-top: -30px;
+    }
+
+}
+
+@media(min-width:1024px) {
+    .styleTituloBanner {
+        font-size: 2.5rem;
+        line-height: 20px;
+
+    }
+
+    .stylePBanner {
+        font-size: 1.2rem;
+        line-height: 36px;
+    }
+
+    .carousel-caption {
+        top: 40%;
+        padding-bottom: 1.25rem;
+        ;
+    }
+
+}
+
+@media(min-width:1336px) {
+    .styleTituloBanner {
+        font-size: 3rem;
+
+    }
+
+    .stylePBanner {
+        font-size: 1.2rem;
+        line-height: 36px;
+    }
+
+    .carousel-caption {
+        top: 20%;
+        padding-bottom: 1.25rem;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .styleTituloBanner {
+        font-size: 0.8rem;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    .styleTituloBanner {
+        font-size: 0.8rem;
+
+    }
+
+}
+
+/*****************************************************************Section do formulário em ordem de tag***********************************************************************************/
+
+
+#med-4 {
+    background-image: url(../img/form-background.jpg);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/*container*/
+
+.bg-fixed,
+.bg-scroll {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+    .med-section .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+
+    /*row*/
+
+    .align-items-center {
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+
+    .d-flex {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    /*col lg 7*/
+
+    @media (min-width: 1200px) {
+        .col-xl-7 {
+            -ms-flex: 0 0 58.333333%;
+            flex: 0 0 58.333333%;
+            max-width: 58.333333%;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .col-lg-7 {
+            -ms-flex: 0 0 58.333333%;
+            flex: 0 0 58.333333%;
+            max-width: 58.333333%;
+        }
+    }
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+        /*
+         Modelo Padrão (content-box): Por padrão, o modelo de caixa do CSS é content-box, onde o width e o height 
+        de um elemento incluem apenas o conteúdo, mas não incluem padding, bordas, ou margens. Isso pode tornar o cálculo de tamanhos e layout complicado.
+    */
+
+        /*
+         Modelo border-box: Com box-sizing: border-box, o padding
+         e a borda são incluídos no width e height de um ele
+        mento. Isso torna o cálculo de tamanhos mais intuitivo e evita que elementos ultrapassem suas caixas previstas.
+     */
+
+        /* Benefícios do uso
+        - Cálculos de Layout Simplificados: Com border-box, a largura total de um elemento inclui o conteúdo, o padding e a borda, facilitando o trabalho com tamanhos fixos.
+        -Menos Quebras de Layout: Evita que a adição de padding ou borda faça com que elementos ultrapassem o tamanho de seus contêineres.
+        -Consistência: Garante um comportamento consistente para todos os elementos, incluindo os pseudo-elementos ::after e ::before.
+     */
+
+        /* ***USO DO BEFORE E AFTER***
+     Os pseudo-elementos ::after e ::before são usados em CSS para inserir conteúdo gerado antes ou depois do conteúdo de um elemento.
+      Eles são frequentemente usados para adicionar decoração ou funcionalidade sem precisar modificar o HTML.
+     */
+    }
+
+    /*div txt*/
+
+    .mb-40 {
+        margin-bottom: 40px;
+        margin-left: 14px;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*h5*/
+
+    #med-4 .h5 {
+        font-size: 0.85rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+    .blue-color,
+    .blue-color .h2,
+    .blue-color h5,
+    .blue-color p,
+    .blue-color a .blue-color i,
+    .white-color .blue-color,
+    .steelblue-color .blue-color,
+    .blue-color span {
+        color: #1190cb
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*h2*/
+
+    #med-4 .h2 {
+        font-size: 3.65rem;
+        font-weight: 900;
+        line-height: 1.25;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+        margin-bottom: 30px;
+
+    }
+
+    .steelblue-color,
+    .steelblue-color h2,
+    .steelblue-color h5,
+    .steelblue-color p,
+    .steelblue-color a,
+    .steelblue-color li,
+    .steelblue-color i,
+    .white-color .steelblue-color,
+    .steelblue-color span {
+        color: #1190cb;
+
+    }
+
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*box-list*/
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+
+
+
+    }
+
+    .detail-div {
+        background-color: rgba(255, 255, 255, 0.2);
+
+
+    }
+
+    /*box-icon*/
+
+    .box-list-icon {
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        float: left;
+        margin-right: 7px;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+
+    /*col lg-5*/
+
+    @media (min-width: 1200px) {
+        .col-xl-5 {
+            -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .col-lg-5 {
+            -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%;
+        }
+    }
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*div text center*/
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*div form bg blue*/
+
+    .med-form {
+        padding: 45px 30px 40px;
+        margin: 0 20px 0 50px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+
+    .bg-blue {
+        background-color: #1190cb;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*col-md-12 white color*/
+
+    .white-color,
+    .white-color h2,
+    .white-color h5,
+    .white-color p,
+    .white-color a,
+    .white-color li,
+    .white-color i,
+    .white-color span {
+        color: #fff;
+    }
+
+    @media (min-width: 768px) {
+        .col-md-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    /*h4*/
+
+    .med-form h4 {
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    .white-color,
+    .white-color h2,
+    .white-color h3,
+    .white-color h4,
+    .white-color h5,
+    .white-color h6,
+    .white-color p,
+    .white-color a,
+    .white-color li,
+    .white-color i,
+    .white-color span {
+        color: #fff;
+    }
+
+    .h4-xs {
+        font-size: 1.625rem;
+    }
+
+    .h4 {
+        font-size: 1.5rem;
+    }
+
+    .h4 {
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*col-lg-12 */
+
+
+    .med-form .col-md-12,
+    .med-form .col-lg-12 {
+        padding: 0;
+    }
+
+    @media (min-width: 992px) {
+        .col-lg-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    /*form control*/
+
+    .med-form .form-control,
+    .med-form .custom-select {
+        background-color: #fff;
+        color: #333;
+        height: 48px;
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 300;
+        padding: 4px 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        box-shadow: none;
+        -webkit-transition: all 400ms ease-in-out;
+        -moz-transition: all 400ms ease-in-out;
+        -o-transition: all 400ms ease-in-out;
+        -ms-transition: all 400ms ease-in-out;
+        transition: all 400ms ease-in-out;
+    }
+
+    .btn-consulta {
+        background-color: whitesmoke;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .button,
+    .input {
+        overflow: visible;
+    }
+
+    .button,
+    .input,
+    .optgroup,
+    .select,
+    .textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+}
+
+/******************************************************************************fim do form**********************************************************************************************/
+
+
+/******************************************************************************SOBRE EMERGENCIA**********************************************************************************************/
+
+/*Conteiner emergencia*/
+
+.emergencia {
+    background-color: #1190cb;
+    /* Cor azul com 50% de opacidade */
+    background-blend-mode: overlay;
+    /* Mistura o fundo com a cor */
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.overlay {
+    position: relative;
+    z-index: 2;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/*container E*/
+
+.container-E {
+    max-width: 1170px;
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/*row*/
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/*Col-lg-12*/
+
+@media (min-width: 992px) {
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.row {
+    /*width: 100%;
+    max-width: 100%;
+    */
+    margin-top: var(--bs-gutter-y);
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+*,
+body {
+    margin: 0;
+}
+
+* {
+    padding: 0;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/*Content*/
+
+.emergencia .content {
+    text-align: center;
+    padding: 60px 265px;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/*button*/
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/*
+
+A primeira regra define box-sizing: inherit;, o que significa que os elementos, 
+pseudoelementos ::after e ::before herdarão o modelo de caixa (box-sizing) de seus elementos pai.
+ Ou seja, se um elemento pai tiver box-sizing: border-box;, seus filhos e pseudoelementos também usarão border-box.
+
+A segunda regra define box-sizing: border-box;, que define 
+explicitamente o modelo de caixa como border-box para todos os elementos, pseudoelementos 
+:after e ::before. Nesse modelo, a largura e a altura do elemento incluem o preenchimento (padding) 
+e a borda (border), mas não a margem (margin).
+
+Essas regras são comuns em folhas de estilo para garantir uma consistência no modelo de caixa em toda a página.
+
+*/
+
+/*btn*/
+
+.emergencia .content .btn {
+    background: #fff;
+    margin-right: 20px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    color: var(--primary-color);
+}
+
+.btn {
+    padding: 13px 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background: var(--primary-color);
+    position: relative;
+    box-shadow: none;
+    display: inline-block;
+    transition: all .4s ease;
+    transform: perspective(1px) translateZ(0);
+    border: none;
+    border-radius: 0;
+    border-radius: 4px;
+}
+
+.emergencia .content .btn {
+    background: #fff;
+    margin-right: 20px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    color: #1a76d1;
+}
+
+/*media query emergencia*/
+
+/* Responsivo para tablets e dispositivos menores */
+@media (max-width: 992px) {
+    .emergencia .content {
+        padding: 40px 30px;
+        /* Reduzir o padding vertical e horizontal */
+    }
+}
+
+/* Responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+    .emergencia .content {
+        padding: 30px 20px;
+        /* Padding ainda mais reduzido para telas menores */
+    }
+
+    .emergencia .content h2 {
+        font-size: 24px;
+        /* Reduzir o tamanho do título */
+    }
+}
+
+/* Estilos adicionais para garantir a legibilidade em telas pequenas */
+@media (max-width: 576px) {
+    .emergencia .content {
+        padding: 20px;
+        /* Ajuste mínimo de padding */
+    }
+
+    .emergencia .content h2 {
+        font-size: 20px;
+        /* Fonte ainda menor para telas muito pequenas */
+    }
+}
+
+/******************************************************************************FIM EMERGENCIA**********************************************************************************************/
+
+
+
+
+
+.titulo {
+    text-align: center;
+
+}
+
+.imagem-left {
+    /*Diminui o tamanho da div de 378px para 280px. Para assim conseguir resolver distancias nas paginas
+    */
+    background-color: #fff;
+
+
+}
+
+.imagem-right {
+    background-color: #fff;
+
+
+
+}
+
+.estilo-data-figcaption {
+    font-size: 0.8rem;
+    color: black;
+    text-align: center;
+
+}
+
+.aside {
+    /*No aisde não possuo distâncias para fora da tag ou para dentro*/
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+.p {
+    color: #9da6a7;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 19px;
+}
+
+.color {
+    color: #27c5e6;
+}
+
+
+
+.primary-color {
+    background-color: #1190cb;
+    color: whitesmoke;
+}
+
+.styleB {
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+/*ajuste dos botões nas section informações, abaixo do carousel*/
+
+@media (max-width: 768px) {
+    .styleBInfo {
+        background-color: whitesmoke;
+        color: black;
+        margin-bottom: 6px;
+    }
+}
+
+
+/*Accordion*/
+
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Adicione um espaço abaixo do mapa */
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.map-text {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .map-container {
+        height: 200px;
+        /* Reduza a altura para telas menores */
+    }
+
+    .map-text {
+        margin-left: 0px;
+        font-size: 14px;
+        /* Ajuste o tamanho da fonte conforme necessário */
+    }
+}
+
+@media (max-width: 480px) {
+    .map-container {
+        height: 150px;
+        /* Reduza ainda mais a altura para telas muito pequenas */
+    }
+
+    .map-text {
+        margin-left: 0px;
+        font-size: 12px;
+        /* Ajuste o tamanho da fonte conforme necessário */
+    }
+}
+
+/* começo footer */
+
+.footer {
+    height: 100px;
+    background-color: #1190cb;
+    color: whitesmoke;
+    border-top: 3px solid #1190cb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer a {
+    color: whitesmoke;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+
+
+/*fim footer*/
